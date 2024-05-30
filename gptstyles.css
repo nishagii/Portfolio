@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+
+body {
+  line-height: 1.7;
+  font-family: "Montserrat", sans-serif;
+}
+.navbar {
+  font-family: "Montserrat", sans-serif;
+}
+.display-5 {
+  font-weight: 650;
+  font-family: "Montserrat", sans-serif;
+}
+.btn-custom {
+  background-color: #131233;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+}
+.btn-custom:hover {
+  background-color: rgba(19, 18, 51, 0.4);
+  color: #131233;
+}
+.btn-custom:focus,
+.btn-custom:active {
+  background-color: #131233;
+  color: #ffffff;
+}
+.custom-margin {
+  margin-left: 30px; /* Adjust the value as needed */
+}
+.lead {
+  font-weight: light;
+  font-family: "Montserrat", sans-serif;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.custom-container {
+  background-color: #f8f9fa;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
+  max-width: 1300px; /* Limit the width of the container */
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 rgba(255, 255, 0, 0.1);
+  transition: all 0.35s ease;
+}
+.custom-container:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.custom-col {
+  padding-top: 50px;
+}
+.heading {
+  color: rgba(0, 0, 0, 0.5);
+}
+.lead {
+  color: rgb(96, 96, 96);
+}
+.card-effect {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 rgba(255, 255, 0, 0.1);
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 30px;
+  transition: all 0.35s ease;
+}
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 217, 29);
+  color: #ffffff;
+  font-size: 32px;
+  border-radius: 100px;
+}
+
+/* Media Queries */
+@media (max-width: 991.98px) {
+  .hero {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    flex-direction: column;
+  }
+  .custom-container {
+    padding: 30px;
+  }
+  .custom-margin {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero {
+    text-align: center;
+  }
+  .custom-container {
+    padding: 20px;
+  }
+  .custom-margin {
+    margin: 10px 0;
+  }
+  .card-effect {
+    margin-bottom: 30px;
+  }
+}
