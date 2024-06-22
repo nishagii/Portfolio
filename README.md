@@ -1,4 +1,4 @@
 # Portfolio
-website I created as my portfolio
+my portfolio website
 <h2>Technologies Used</h2>
 
